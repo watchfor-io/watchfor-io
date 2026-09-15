@@ -2,7 +2,7 @@
 
 **Uptime & infrastructure monitoring** — for humans *and* AI agents.
 
-<a href="https://ora.ai/scan/watchfor.io"><img src="https://ora.ai/api/badge/watchfor.io" alt="ora agent-readiness score" height="76" /></a> <a href="https://is-agentic.com/scan/watchfor.io"><img src="https://watchfor.io/api/badge/is-agentic" alt="is-agentic agent readiness score" height="76" /></a>
+<a href="https://ora.ai/scan/watchfor.io"><img src="https://ora.ai/api/badge/watchfor.io" alt="ora agent-readiness score" height="76" /></a> <a href="https://is-agentic.com/scan/watchfor.io"><img src="https://watchfor.io/api/badge/is-agentic" alt="is-agentic agent readiness score" height="76" /></a> <a href="https://webmcp.ora.ai/watchfor.io"><img src="https://watchfor.io/api/badge/webmcp" alt="WebMCP audit score" height="76" /></a>
 
 [watchfor.io](https://watchfor.io) monitors websites, APIs, SSL certificates, DNS, email, cron jobs and MCP servers from multiple regions worldwide. A failure is only declared **Down** once confirmed from several locations — alerts reflect real outages, not one bad network path.
 
@@ -22,7 +22,7 @@
 - 🤝 **A2A agent** (16 skills) — `https://watchfor.io/api/a2a`
 - 🧪 **No-auth sandbox** — `https://watchfor.io/api/v1/sandbox`
 - 🩺 **Live diagnostics** (18 on-demand checks) — `https://watchfor.io/api/v1/diagnostics` · DNS, propagation, TLS grade, HTTP headers, ping, traceroute, ports, e-mail policy and more, run from the probe fleet. A model can reason about a site; it has no machine in 20 locations.
-- 🧭 **WebMCP (in-page tools)** — nine browser-side tools on `document.modelContext`, so an agent-capable browser can use watchfor.io with no account · [audit: 99/100](https://webmcp.ora.ai/watchfor.io)
+- 🧭 **WebMCP (in-page tools)** — nine browser-side tools on `document.modelContext`, so an agent-capable browser can use watchfor.io with no account · [audit](https://webmcp.ora.ai/watchfor.io)
 
 ## SDKs
 

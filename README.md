@@ -2,6 +2,8 @@
 
 **Uptime & infrastructure monitoring** — for humans *and* AI agents.
 
+[![agentic score](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fis-agentic.com%2Fapi%2Fv1%2Freport%3Furl%3Dwatchfor.io&query=%24.score&suffix=%2F100&label=agentic%20score&color=brightgreen)](https://is-agentic.com/scan/watchfor.io)
+
 [watchfor.io](https://watchfor.io) monitors websites, APIs, SSL certificates, DNS, email, cron jobs and MCP servers from multiple regions worldwide. A failure is only declared **Down** once confirmed from several locations — alerts reflect real outages, not one bad network path.
 
 ## What WatchFor does

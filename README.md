@@ -17,10 +17,12 @@
 ## For developers & agents
 
 - 🔌 **REST API** — [watchfor.io/api/v1](https://watchfor.io/docs/api) · [OpenAPI 3.1](https://watchfor.io/openapi.json)
-- 🤖 **MCP server** (37 tools) — `https://watchfor.io/api/mcp` · [Smithery](https://smithery.ai/servers/hello-65wl/watchfor)
+- 🤖 **MCP server** (45 tools) — `https://watchfor.io/api/mcp` · [Smithery](https://smithery.ai/servers/hello-65wl/watchfor)
 - 📚 **Docs MCP server** (no auth) — `https://watchfor.io/api/docs-mcp`
-- 🤝 **A2A agent** (13 skills) — `https://watchfor.io/api/a2a`
+- 🤝 **A2A agent** (16 skills) — `https://watchfor.io/api/a2a`
 - 🧪 **No-auth sandbox** — `https://watchfor.io/api/v1/sandbox`
+- 🩺 **Live diagnostics** (18 on-demand checks) — `https://watchfor.io/api/v1/diagnostics` · DNS, propagation, TLS grade, HTTP headers, ping, traceroute, ports, e-mail policy and more, run from the probe fleet. A model can reason about a site; it has no machine in 20 locations.
+- 🧭 **WebMCP (in-page tools)** — nine browser-side tools on `document.modelContext`, so an agent-capable browser can use watchfor.io with no account · [audit: 99/100](https://webmcp.ora.ai/watchfor.io)
 
 ## SDKs
 

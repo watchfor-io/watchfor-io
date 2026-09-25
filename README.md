@@ -8,7 +8,7 @@
 
 ## What WatchFor does
 
-- **25 monitor types** — [HTTP/HTTPS](https://watchfor.io/http-monitoring) · [API with JSON assertions](https://watchfor.io/api-monitoring) · [SSL certificates](https://watchfor.io/ssl-monitoring) · [DNS](https://watchfor.io/dns-monitoring) · [TCP](https://watchfor.io/tcp-monitoring) / [UDP](https://watchfor.io/udp-monitoring) · [ping/ICMP](https://watchfor.io/ping-monitoring) · [MTR network path](https://watchfor.io/mtr-monitoring) · [email deliverability](https://watchfor.io/email-monitoring) · [cron jobs / heartbeats](https://watchfor.io/cron-job-monitoring) · [Core Web Vitals](https://watchfor.io/core-web-vitals-monitoring) · [MCP servers](https://watchfor.io/mcp-monitoring) · [domain expiry](https://watchfor.io/domain-expiry-monitoring) · [blacklists](https://watchfor.io/blacklist-monitoring) and more
+- **26 monitor types** — [HTTP/HTTPS](https://watchfor.io/http-monitoring) · [API with JSON assertions](https://watchfor.io/api-monitoring) · [SSL certificates](https://watchfor.io/ssl-monitoring) · [DNS](https://watchfor.io/dns-monitoring) · [TCP](https://watchfor.io/tcp-monitoring) / [UDP](https://watchfor.io/udp-monitoring) · [ping/ICMP](https://watchfor.io/ping-monitoring) · [MTR network path](https://watchfor.io/mtr-monitoring) · [email deliverability](https://watchfor.io/email-monitoring) · [cron jobs / heartbeats](https://watchfor.io/cron-job-monitoring) · [Core Web Vitals](https://watchfor.io/core-web-vitals-monitoring) · [MCP servers](https://watchfor.io/mcp-monitoring) · [page integrity / defacement](https://watchfor.io/page-integrity-monitoring) · [domain expiry](https://watchfor.io/domain-expiry-monitoring) · [blacklists](https://watchfor.io/blacklist-monitoring) and more
 - **Confirmed multi-location alerting** to 16+ channels — email, Slack, Discord, Telegram, Microsoft Teams, PagerDuty, Opsgenie, webhooks… ([all integrations](https://watchfor.io/alerting-integrations))
 - **[Public status pages](https://watchfor.io/status-pages)** on your own subdomain, with third-party components, badges and RSS
 - **[Incident management](https://watchfor.io/incident-management)** — timelines, internal notes, post-mortems
@@ -17,7 +17,7 @@
 ## For developers & agents
 
 - 🔌 **REST API** — [watchfor.io/api/v1](https://watchfor.io/docs/api) · [OpenAPI 3.1](https://watchfor.io/openapi.json)
-- 🤖 **MCP server** (54 tools) — `https://watchfor.io/api/mcp` · [Smithery](https://smithery.ai/servers/hello-65wl/watchfor)
+- 🤖 **MCP server** (56 tools) — `https://watchfor.io/api/mcp` · [Smithery](https://smithery.ai/servers/hello-65wl/watchfor)
 - 📚 **Docs MCP server** (no auth) — `https://watchfor.io/api/docs-mcp`
 - 🤝 **A2A agent** (18 skills) — `https://watchfor.io/api/a2a`
 - 🧪 **No-auth sandbox** — `https://watchfor.io/api/v1/sandbox`

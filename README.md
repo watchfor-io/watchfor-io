@@ -20,12 +20,13 @@
 
 ## For developers & agents
 
-- 🔌 **REST API** — [watchfor.io/api/v1](https://watchfor.io/docs/api) · [OpenAPI 3.1](https://watchfor.io/openapi.json) (83 operations)
+- 🔌 **REST API** — [watchfor.io/api/v1](https://watchfor.io/docs/api) · [OpenAPI 3.1](https://watchfor.io/openapi.json) (84 operations)
 - 🤖 **MCP server** (59 tools) — `https://watchfor.io/api/mcp` · [Smithery](https://smithery.ai/servers/hello-65wl/watchfor)
 - 📚 **Docs MCP server** (no auth) — `https://watchfor.io/api/docs-mcp`
 - 🤝 **A2A agent** (18 skills) — `https://watchfor.io/api/a2a`
 - 🧪 **No-auth sandbox** — `https://watchfor.io/api/v1/sandbox`
 - 🩺 **Live diagnostics** (22 on-demand checks) — `https://watchfor.io/api/v1/diagnostics` · DNS, propagation, TLS grade, HTTP headers, CDN, ping, traceroute, ports, e-mail policy and more, run from the probe fleet. A model can reason about a site; it has no machine in 20 locations.
+- 📈 **Prometheus metrics** (Pro plan and above) — `https://watchfor.io/api/v1/metrics` · status, incident-based uptime, response times, SSL and domain expiry, heartbeats and hosts for your own Prometheus, with a [Grafana dashboard](https://watchfor.io/docs/api/prometheus#grafana-dashboard)
 - 🧭 **WebMCP (in-page tools)** — nine browser-side tools on `document.modelContext`, so an agent-capable browser can use watchfor.io with no account · [audit](https://webmcp.ora.ai/watchfor.io)
 
 ## SDKs & CLI
@@ -72,6 +73,7 @@ Also: [Ping](https://watchfor.io/ping-test) · [Traceroute](https://watchfor.io/
 ## Open source
 
 - **[`agent`](https://github.com/watchfor-io/agent)** — watchfor-agent, the Linux host agent [![release](https://img.shields.io/github/v/release/watchfor-io/agent?display_name=tag)](https://github.com/watchfor-io/agent/releases/latest) [![license](https://img.shields.io/github/license/watchfor-io/agent)](https://github.com/watchfor-io/agent/blob/main/LICENSE) — one static Go binary (amd64, arm64), a one-line install, outbound HTTPS only, nothing executed from configuration, signed and reproducible releases, opt-in auto-update · [about the agent](https://watchfor.io/agent)
+- **[`prometheus-exporter`](https://github.com/watchfor-io/prometheus-exporter)** — polls the metrics endpoint for one or more organizations and serves it on `/metrics`: one target for several organizations, keys kept in a Kubernetes Secret, its own health metrics · Go, distroless image
 - **[`agent-toolkit`](https://github.com/watchfor-io/agent-toolkit)** — AGENTS.md, agent skills, plugin manifest and MCP config
 
 Agent quickstart: [watchfor.io/agents.md](https://watchfor.io/agents.md) · Docs: [watchfor.io/docs](https://watchfor.io/docs) · Comparisons: [watchfor.io/comparisons](https://watchfor.io/comparisons) · Engineering blog: [watchfor.io/blog](https://watchfor.io/blog) · Changelog: [watchfor.io/changelog](https://watchfor.io/changelog)

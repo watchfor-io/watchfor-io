@@ -1,6 +1,6 @@
 # WatchFor
 
-**Uptime & infrastructure monitoring** — for humans *and* AI agents.
+**Uptime, API & synthetic monitoring** — for humans *and* AI agents.
 
 <a href="https://ora.ai/scan/watchfor.io"><img src="https://ora.ai/api/badge/watchfor.io" alt="ora agent-readiness score" height="76" /></a> <a href="https://is-agentic.com/scan/watchfor.io"><img src="https://watchfor.io/api/badge/is-agentic" alt="is-agentic agent readiness score" height="76" /></a> <a href="https://webmcp.ora.ai/watchfor.io"><img src="https://watchfor.io/api/badge/webmcp" alt="WebMCP audit score" height="76" /></a>
 
@@ -9,6 +9,7 @@
 ## What WatchFor does
 
 - **27 monitor types** — [HTTP/HTTPS](https://watchfor.io/http-monitoring) · [API with JSON assertions](https://watchfor.io/api-monitoring) · [Playwright browser checks](https://watchfor.io/playwright-monitoring) · [SSL certificates](https://watchfor.io/ssl-monitoring) · [DNS](https://watchfor.io/dns-monitoring) · [CDN caching](https://watchfor.io/cdn-monitoring) · [TCP](https://watchfor.io/tcp-monitoring) / [UDP](https://watchfor.io/udp-monitoring) · [ping/ICMP](https://watchfor.io/ping-monitoring) · [MTR network path](https://watchfor.io/mtr-monitoring) · [email deliverability](https://watchfor.io/email-monitoring) · [cron jobs / heartbeats](https://watchfor.io/cron-job-monitoring) · [Core Web Vitals](https://watchfor.io/core-web-vitals-monitoring) · [MCP servers](https://watchfor.io/mcp-monitoring) · [page integrity / defacement](https://watchfor.io/page-integrity-monitoring) · [domain expiry](https://watchfor.io/domain-expiry-monitoring) · [blacklists](https://watchfor.io/blacklist-monitoring) and more
+- **[Synthetic monitoring](https://watchfor.io/synthetic-monitoring)** — scripted checks that act like a user, on a schedule, from many locations: API checks, Core Web Vitals audits and browser checks, with an incident only once a failure is confirmed
 - **[Browser checks](https://watchfor.io/playwright-monitoring)** — plain Playwright Test scripts (login, search, checkout) run on a schedule in a sandboxed Chromium: every step timed with a screenshot, secrets masked in results and traces, a test run before you save
 - **[Server monitoring](https://watchfor.io/server-monitoring)** — the inside view next to the outside one: the open-source [watchfor-agent](https://github.com/watchfor-io/agent) pushes CPU, load, memory, disk, network and process metrics from Linux servers, with the same alerting as monitors
 - **[CDN monitoring](https://watchfor.io/cdn-monitoring)** — is your edge really caching, or quietly hitting your origin? Cache hit ratio, which edge answers in each region, per-region performance, and an alert when caching breaks

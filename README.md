@@ -59,7 +59,7 @@ Docs: [watchfor.io/docs/api#sdks--cli](https://watchfor.io/docs/api#sdks--cli) �
 
 ## Free tools — no signup
 
-[60 free network, web and email tools](https://watchfor.io/free-tools). The ones that need the internet's view run from our probe fleet in 20 locations — the same checks agents call as live diagnostics — so you see your site the way the world does, not the way your laptop does:
+[60 free network, web and email tools](https://watchfor.io/free-tools), each with a [how-to guide](https://watchfor.io/blog/category/guides) built on a real run. The ones that need the internet's view run from our probe fleet in 20 locations — the same checks agents call as live diagnostics — so you see your site the way the world does, not the way your laptop does:
 
 - **[Smart Website Checker](https://watchfor.io/smart-website-audit)** — one scan, one letter grade with the reasons: domain expiry, HTTPS, DNS, email spoofing protection, mail blacklists
 - **[Global CDN Checker](https://watchfor.io/cdn-checker)** — which CDN serves a URL, which edge answers in each region, whether it is really cached, and which regions behave differently; three requests from every location, one graded report

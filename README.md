@@ -27,7 +27,7 @@
 - 📚 **Docs MCP server** (no auth) — `https://watchfor.io/api/docs-mcp`
 - 🤝 **A2A agent** (18 skills) — `https://watchfor.io/api/a2a`
 - 🧪 **No-auth sandbox** — `https://watchfor.io/api/v1/sandbox`
-- 🩺 **Live diagnostics** (22 on-demand checks) — `https://watchfor.io/api/v1/diagnostics` · DNS, propagation, TLS grade, HTTP headers, CDN, ping, traceroute, ports, e-mail policy and more, run from the probe fleet. A model can reason about a site; it has no machine in 20 locations.
+- 🩺 **Live diagnostics** (23 on-demand checks) — `https://watchfor.io/api/v1/diagnostics` · DNS, propagation, TLS grade, mail server grade, HTTP headers, CDN, ping, traceroute, ports, e-mail policy and more, run from the probe fleet. A model can reason about a site; it has no machine in 20 locations.
 - 📈 **Prometheus metrics** (Pro plan and above) — `https://watchfor.io/api/v1/metrics` · status, incident-based uptime, response times, SSL and domain expiry, heartbeats and hosts for your own Prometheus, with a [Grafana dashboard](https://watchfor.io/docs/api/prometheus#grafana-dashboard)
 - 🧭 **WebMCP (in-page tools)** — nine browser-side tools on `document.modelContext`, so an agent-capable browser can use watchfor.io with no account · [audit](https://webmcp.ora.ai/watchfor.io)
 
@@ -60,7 +60,7 @@ Docs: [watchfor.io/docs/api#sdks--cli](https://watchfor.io/docs/api#sdks--cli) �
 
 ## Free tools — no signup
 
-[60 free network, web and email tools](https://watchfor.io/free-tools), each with a [how-to guide](https://watchfor.io/blog/category/guides) built on a real run. The ones that need the internet's view run from our probe fleet in 20 locations — the same checks agents call as live diagnostics — so you see your site the way the world does, not the way your laptop does:
+[61 free network, web and email tools](https://watchfor.io/free-tools), each with a [how-to guide](https://watchfor.io/blog/category/guides) built on a real run. The ones that need the internet's view run from our probe fleet in 20 locations — the same checks agents call as live diagnostics — so you see your site the way the world does, not the way your laptop does:
 
 - **[Smart Website Checker](https://watchfor.io/smart-website-audit)** — one scan, one letter grade with the reasons: domain expiry, HTTPS, DNS, email spoofing protection, mail blacklists
 - **[Global CDN Checker](https://watchfor.io/cdn-checker)** — which CDN serves a URL, which edge answers in each region, whether it is really cached, and which regions behave differently; three requests from every location, one graded report
@@ -68,6 +68,7 @@ Docs: [watchfor.io/docs/api#sdks--cli](https://watchfor.io/docs/api#sdks--cli) �
 - **[DNS Propagation](https://watchfor.io/dns-propagation-checker)** — a record as every region sees it, on a live world map: stale anycast nodes and propagation gaps
 - **[Core Web Vitals Checker](https://watchfor.io/core-web-vitals-checker)** — a full Lighthouse run: LCP, CLS, the loading filmstrip frame by frame and the top fixes
 - **[MCP Server Checker](https://watchfor.io/mcp-server-checker)** — initialize handshake, protocol version, capabilities and the full tool inventory of any MCP server
+- **[Mail Server Checker](https://watchfor.io/mail-server-checker)** — enter a domain and every mail server it uses (inbound MX, SMTP submission, IMAP, POP3) gets an A+ to F grade for TLS, certificates, STARTTLS, plain-text logins, open relay, MTA-STS, TLS-RPT and DANE, from three regions, with the exact fix; no login, no test message
 - **[Email Health](https://watchfor.io/email-policy-checker)** — one SPF + DKIM + DMARC grade with per-record diagnostics, plus an [email header analyzer](https://watchfor.io/email-header-analyzer)
 
 Also: [Ping](https://watchfor.io/ping-test) · [Traceroute](https://watchfor.io/traceroute-online) · [Port checker](https://watchfor.io/port-checker) · [Blacklist check](https://watchfor.io/blacklist-checker) · [Whois](https://watchfor.io/whois-lookup) · [DNS lookups](https://watchfor.io/dns-checker) (A, AAAA, CNAME, MX, NS, TXT, SOA, SRV, CAA, reverse) · [HTTP headers](https://watchfor.io/http-header-checker) · [Security headers](https://watchfor.io/security-headers-checker) · [Redirect checker](https://watchfor.io/redirect-checker) · [API tester](https://watchfor.io/api-tester) · [WebSocket tester](https://watchfor.io/websocket-tester) · [SMTP test](https://watchfor.io/smtp-test) · [What's my IP](https://watchfor.io/whats-my-ip) · calculators for [uptime](https://watchfor.io/uptime-calculator), [SLA](https://watchfor.io/sla-calculator), [error budget](https://watchfor.io/error-budget-calculator), [subnets](https://watchfor.io/subnet-calculator), [cron](https://watchfor.io/cron-expression-tester) and [JSON / JSONPath](https://watchfor.io/json-formatter)

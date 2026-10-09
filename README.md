@@ -4,6 +4,8 @@
 
 <a href="https://ora.ai/scan/watchfor.io"><img src="https://ora.ai/api/badge/watchfor.io" alt="ora agent-readiness score" height="76" /></a> <a href="https://is-agentic.com/scan/watchfor.io"><img src="https://watchfor.io/api/badge/is-agentic" alt="is-agentic agent readiness score" height="76" /></a> <a href="https://webmcp.ora.ai/watchfor.io"><img src="https://watchfor.io/api/badge/webmcp" alt="WebMCP audit score" height="76" /></a>
 
+<a href="https://watchfor.io"><img src="assets/watchfor-dashboard-dark.webp" alt="WatchFor on laptop, tablet and phone: a monitor's uptime, incidents and response time, the monitors list, and a public status page" width="100%" /></a>
+
 [watchfor.io](https://watchfor.io) monitors websites, APIs, SSL certificates, DNS, email delivery and mailboxes, cron jobs, MCP servers, scripted browser journeys and Linux servers from 20 locations across 7 world regions. A failure is only declared **Down** once confirmed from several locations — alerts reflect real outages, not one bad network path.
 
 ## What WatchFor does

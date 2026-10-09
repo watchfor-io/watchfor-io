@@ -19,7 +19,7 @@
 - **[Incident management](https://watchfor.io/incident-management)** — confirmed incidents, internal notes, post-mortems, maintenance windows that keep planned work out of your uptime
 - **[On-call scheduling](https://watchfor.io/on-call)** — rotations and escalations, included in plans (no per-seat fees)
 - **[Reports](https://watchfor.io/reporting)** — weekly/monthly email reports with MTTR/MTBF and trends, the same data over the API; custom periods and per-client (tag) reports on Pro and up
-- **[Data history](https://watchfor.io/docs/organization/data-retention)** — uptime and incident history kept forever on every plan; charts up to 5 years, individual check results 30–180 days
+- **[Data history](https://watchfor.io/docs/organization/data-retention)** — uptime and incident history kept forever on every plan; charts up to 5 years, individual check results 30–180 days, screenshots, traces and Lighthouse reports 7–90 days
 
 ## For developers & agents
 

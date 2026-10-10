@@ -2,8 +2,6 @@
 
 **Uptime, API & synthetic monitoring** — for humans *and* AI agents.
 
-<a href="https://ora.ai/scan/watchfor.io"><img src="https://ora.ai/api/badge/watchfor.io" alt="ora agent-readiness score" height="76" /></a> <a href="https://is-agentic.com/scan/watchfor.io"><img src="https://watchfor.io/api/badge/is-agentic" alt="is-agentic agent readiness score" height="76" /></a> <a href="https://webmcp.ora.ai/watchfor.io"><img src="https://watchfor.io/api/badge/webmcp" alt="WebMCP audit score" height="76" /></a>
-
 <a href="https://watchfor.io"><img src="assets/watchfor-dashboard-dark.webp" alt="WatchFor on laptop, tablet and phone: a monitor's uptime, incidents and response time, the monitors list, and a public status page" width="100%" /></a>
 
 [watchfor.io](https://watchfor.io) monitors websites, APIs, SSL certificates, DNS, email delivery and mailboxes, cron jobs, MCP servers, scripted browser journeys and Linux servers from 20 locations across 7 world regions. A failure is only declared **Down** once confirmed from several locations — alerts reflect real outages, not one bad network path.
@@ -24,6 +22,8 @@
 - **[Data history](https://watchfor.io/docs/organization/data-retention)** — uptime and incident history kept forever on every plan; charts up to 5 years, individual check results 30–180 days, screenshots, traces and Lighthouse reports 7–90 days
 
 ## For developers & agents
+
+<a href="https://ora.ai/scan/watchfor.io"><img src="https://ora.ai/api/badge/watchfor.io" alt="ora agent-readiness score" height="76" /></a> <a href="https://is-agentic.com/scan/watchfor.io"><img src="https://watchfor.io/api/badge/is-agentic" alt="is-agentic agent readiness score" height="76" /></a> <a href="https://webmcp.ora.ai/watchfor.io"><img src="https://watchfor.io/api/badge/webmcp" alt="WebMCP audit score" height="76" /></a>
 
 - 🔌 **REST API** — [watchfor.io/api/v1](https://watchfor.io/docs/api) · [OpenAPI 3.1](https://watchfor.io/openapi.json) (84 operations)
 - 🤖 **MCP server** (59 tools) — `https://watchfor.io/api/mcp` · [Smithery](https://smithery.ai/servers/hello-65wl/watchfor)

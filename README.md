@@ -26,7 +26,7 @@
 
 <a href="https://ora.ai/scan/watchfor.io"><img src="https://ora.ai/api/badge/watchfor.io" alt="ora agent-readiness score" height="76" /></a> <a href="https://is-agentic.com/scan/watchfor.io"><img src="https://watchfor.io/api/badge/is-agentic" alt="is-agentic agent readiness score" height="76" /></a> <a href="https://webmcp.ora.ai/watchfor.io"><img src="https://watchfor.io/api/badge/webmcp" alt="WebMCP audit score" height="76" /></a>
 
-- 🔌 **REST API** — [watchfor.io/api/v1](https://watchfor.io/docs/api) · [OpenAPI 3.1](https://watchfor.io/openapi.json) (84 operations)
+- 🔌 **REST API** — [watchfor.io/api/v1](https://watchfor.io/docs/api) · [OpenAPI 3.1](https://watchfor.io/openapi.json) (85 operations)
 - 🤖 **MCP server** (59 tools) — `https://watchfor.io/api/mcp` · [Smithery](https://smithery.ai/servers/hello-65wl/watchfor)
 - 📚 **Docs MCP server** (no auth) — `https://watchfor.io/api/docs-mcp`
 - 🤝 **A2A agent** (18 skills) — `https://watchfor.io/api/a2a`

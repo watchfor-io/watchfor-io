@@ -80,7 +80,7 @@ Also: [Ping](https://watchfor.io/ping-test) · [Traceroute](https://watchfor.io/
 
 ## Open source
 
-- **[`agent`](https://github.com/watchfor-io/agent)** — watchfor-agent, the Linux host agent [![release](https://img.shields.io/github/v/release/watchfor-io/agent?display_name=tag)](https://github.com/watchfor-io/agent/releases/latest) [![license](https://img.shields.io/github/license/watchfor-io/agent)](https://github.com/watchfor-io/agent/blob/main/LICENSE) — one static Go binary (amd64, arm64), a one-line install, outbound HTTPS only, nothing executed from configuration, signed and reproducible releases, opt-in auto-update · [about the agent](https://watchfor.io/agent)
+- **[`agent`](https://github.com/watchfor-io/agent)** — watchfor-agent, the Linux host agent [![release](https://img.shields.io/github/v/release/watchfor-io/agent?display_name=tag)](https://github.com/watchfor-io/agent/releases/latest) [![license](https://img.shields.io/github/license/watchfor-io/agent?cacheSeconds=86400)](https://github.com/watchfor-io/agent/blob/main/LICENSE) — one static Go binary (amd64, arm64), a one-line install, outbound HTTPS only, nothing executed from configuration, signed and reproducible releases, opt-in auto-update · [about the agent](https://watchfor.io/agent)
 - **[`prometheus-exporter`](https://github.com/watchfor-io/prometheus-exporter)** — polls the metrics endpoint for one or more organizations and serves it on `/metrics`: one target for several organizations, keys kept in a Kubernetes Secret, its own health metrics · Go, distroless image
 - **[`agent-toolkit`](https://github.com/watchfor-io/agent-toolkit)** — AGENTS.md, agent skills, plugin manifest and MCP config
 

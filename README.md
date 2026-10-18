@@ -26,8 +26,8 @@
 
 <a href="https://ora.ai/scan/watchfor.io"><img src="https://ora.ai/api/badge/watchfor.io" alt="ora agent-readiness score" height="76" /></a> <a href="https://is-agentic.com/scan/watchfor.io"><img src="https://watchfor.io/api/badge/is-agentic" alt="is-agentic agent readiness score" height="76" /></a> <a href="https://webmcp.ora.ai/watchfor.io"><img src="https://watchfor.io/api/badge/webmcp" alt="WebMCP audit score" height="76" /></a>
 
-- 🔌 **REST API** — [watchfor.io/api/v1](https://watchfor.io/docs/api) · [OpenAPI 3.1](https://watchfor.io/openapi.json) (87 operations) · every monitor reports its latest result in its own terms — days until a domain or certificate expires (with registrar and registry status), blacklist listings, SPF / DMARC / DKIM, Core Web Vitals, the failing Playwright step — and incidents carry post-mortems you can read and write
-- 🤖 **MCP server** (61 tools) — `https://watchfor.io/api/mcp` · [Smithery](https://smithery.ai/servers/hello-65wl/watchfor)
+- 🔌 **REST API** — [watchfor.io/api/v1](https://watchfor.io/docs/api) · [OpenAPI 3.1](https://watchfor.io/openapi.json) (89 operations) · every monitor reports its latest result in its own terms — days until a domain or certificate expires (with registrar and registry status), blacklist listings, SPF / DMARC / DKIM, Core Web Vitals, the failing Playwright step — and incidents carry post-mortems you can read and write
+- 🤖 **MCP server** (63 tools) — `https://watchfor.io/api/mcp` · [Smithery](https://smithery.ai/servers/hello-65wl/watchfor)
 - 📚 **Docs MCP server** (no auth) — `https://watchfor.io/api/docs-mcp`
 - 🤝 **A2A agent** (19 skills) — `https://watchfor.io/api/a2a`
 - 🧪 **No-auth sandbox** — `https://watchfor.io/api/v1/sandbox`
